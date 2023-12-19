@@ -17,5 +17,14 @@ public class Main {
         System.out.print("Введите имя пользователя: ");
         System.out.println("Hello " + scanner.nextLine() + "!");
         System.out.println();
+
+        //Задача №3
+        System.out.println("Считаем сумму двух чисел.");
+        System.out.print("Введите первое число: ");
+        int numberA = scanner.nextInt();
+
+        System.out.print("Введите второе число: ");
+        int numberB = scanner.nextInt();
+        System.out.println("Сумма чисел " + numberA + " и " + numberB + " равна " + (numberA + numberB));
     }
 }
